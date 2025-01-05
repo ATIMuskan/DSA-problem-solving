@@ -9,7 +9,8 @@ public class ReverseArray {
             arr[start] = arr[end];
             arr[end] = temp;
 
-            // Move the pointers towards each other
+            // Move the pointers towards each other 
+        //ATIMuskan/DSA-problem-solving
             start++;
             end--;
         }
